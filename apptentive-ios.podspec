@@ -23,5 +23,4 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = { "GCC_PREPROCESSOR_DEFINITIONS[config=Debug]" => "APPTENTIVE_DEBUG=1 APPTENTIVE_COCOAPODS=1",
   "GCC_PREPROCESSOR_DEFINITIONS[config=Release]" => "APPTENTIVE_COCOAPODS=1" }
   s.public_header_files = 'Apptentive/Apptentive/Apptentive.h', 'Apptentive/Apptentive/ApptentiveStyleSheet.h'
-  s.dependency 'React/Core'
 end
